@@ -1,0 +1,109 @@
+
+body{
+	background: yellow;
+	margin: 0;		
+}
+header{
+	background: black;
+	color: yellow;
+	padding: 75px 50px 0 300px;
+	}
+
+header h1{
+	text-align: center;
+	display: inline;
+}
+
+nav ul{
+	margin: 0 ;
+	padding: 0 0 0 15;
+	display: inline;
+	background: black;
+}
+
+nav ul li{
+	background: black;
+	color: yellow;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 10px;
+	margin: 0px;
+}
+
+nav ul li a{
+	color: yellow;
+}
+
+
+.col{
+
+	background: #333;
+	border-radius: 10px;
+	color: yellow;
+	float: left;
+	margin: 15px;
+	width: 31%;
+}
+
+.col a{
+	color: yellow;
+	text-align: right;
+}
+
+footer{
+	clear: both;
+}
+
+.col img {
+	display: none;
+
+}
+
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	left: 0px;
+	top: 0px;
+	z-index: 10000;
+	background-color: #999;
+	background-color: rgba(153,153,153,0.7);
+	display: none;
+}
+.overlay img{
+	position: absolute;
+	z-index: 10001;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	border: 3px solid #333;
+	padding: 10px;
+    border-radius: 10px;
+}
+.container {
+	background-color: black;
+}
+
+.filters a{
+	background-color:black;
+	color: yellow;
+	text-decoration: none;
+	padding: 2px 5px;
+	border-radius: 5px;
+}
+.filters{
+	background-color:black;
+	color: yellow;
+}
+.model{
+	background-color: black;
+	color: yellow;
+}
+
+input {
+	background-color: #333;
+}
+.label{
+	color: yellow;
+}
